@@ -5,7 +5,10 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Required Ruby & Rails versions
+Rails 5.0.0
+Ruby 2.2+
+_(Development started using Rails 5.0.0 & Ruby 2.3.1)_
 
 * System dependencies
 
