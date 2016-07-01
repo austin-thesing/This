@@ -23,8 +23,5 @@
 # Ignore RVM Gem Set
 /.ruby-gemset
 
-# Ignore secret.yml
-/config/secrets.yml
-
 # Ignore application configuration
 /config/application.yml
