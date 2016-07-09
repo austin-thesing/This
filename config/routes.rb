@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pub-profile/:id' => 'users#show', as: :profile
+  # get 'users/show'
 
   devise_for :users
   get 'dev' => 'welcome#dev_profile'
