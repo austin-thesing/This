@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get '/profile' => 'user_profiles#show'
+
   resources :articles
   devise_for :users
   get 'dev' => 'welcome#dev_profile'
