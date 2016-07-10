@@ -19,6 +19,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # Use bootstrap for default styling
 gem 'bootstrap-sass'
+# Placehold.it gem for placeholder images
+gem 'placeholdit'
 # Use for hiding environment variables
 gem 'figaro'
 # Use Devise for User Accounts
