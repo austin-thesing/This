@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :article do
-    url "MyString"
-    user nil
+    url "http://localhost.com"
+    user
   end
 end

@@ -1,5 +1,7 @@
 # README
 
+[![Code Climate](https://codeclimate.com/github/austin-thesing/this/badges/gpa.svg)](https://codeclimate.com/github/austin-thesing/this)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
