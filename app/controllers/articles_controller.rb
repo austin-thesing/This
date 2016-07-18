@@ -1,5 +1,7 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [:show, :edit, :update, :destroy]
+  # Allows guest users to see the articles (This' shared by registered users)
+  skip_before_action :authenticate_user!, only: [:index]
 
 
   # GET /articles

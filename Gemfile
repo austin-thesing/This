@@ -25,6 +25,8 @@ gem 'placeholdit'
 gem 'figaro'
 # Use Devise for User Accounts
 gem 'devise'
+# Font-Awesome for icons
+gem 'font-awesome-sass', '~> 4.6.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -62,6 +64,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'shoulda'
+  gem 'capybara'
 end
 
 # # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

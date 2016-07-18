@@ -27,7 +27,7 @@ RSpec.describe ArticlesController, :type => :controller do
   describe "GET index" do
     it "assigns all articles as @articles" do
       article = Article.create! valid_attributes
-      get :index, {}, valid_session
+      get :index#, {}, valid_session
       expect(assigns(:articles)).to eq([article])
     end
   end
@@ -35,7 +35,7 @@ RSpec.describe ArticlesController, :type => :controller do
   describe "GET show" do
     it "assigns the requested article as @article" do
       article = Article.create! valid_attributes
-      get :show, {:id => article.to_param}, valid_session
+      get :show, id: @article.id, user_id: @user.id
       expect(assigns(:article)).to eq(article)
     end
   end
