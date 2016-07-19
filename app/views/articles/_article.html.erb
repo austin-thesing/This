@@ -1,12 +1,12 @@
 <div class="row">
-  <div class="col-md-12">
-    <h2><%= "@" + article.user.username %> shared This.</h2>
-    <h4><%=link_to article.url, article.url %></h4>
+  <div class="col-lg-12">
+    <h3><%= "@" + article.user.username %> shared This.</h3>
+    <h5><%=link_to article.url, article.url %></h5>
     <div class="row">
-      <div class="col-md-8">
-        <%=  %>
+      <div class="col-lg-8">
+        <%= time_ago_in_words(article.created_at) %>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4">
         <h6><%= article.user.username  %></h6>
       </div>
     </div>
