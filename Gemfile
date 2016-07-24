@@ -19,10 +19,14 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # Use bootstrap for default styling
 gem 'bootstrap-sass'
+# Placehold.it gem for placeholder images
+gem 'placeholdit'
 # Use for hiding environment variables
 gem 'figaro'
 # Use Devise for User Accounts
 gem 'devise'
+# Font-Awesome for icons
+gem 'font-awesome-sass', '~> 4.6.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -30,6 +34,7 @@ gem 'devise'
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
+gem 'rails-controller-testing'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -60,6 +65,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'shoulda'
+  gem 'capybara'
 end
 
 # # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

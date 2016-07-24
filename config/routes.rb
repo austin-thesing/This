@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :articles
   get 'pub-profile/:id' => 'users#show', as: :profile
   # get 'users/show'
 
