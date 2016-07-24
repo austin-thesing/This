@@ -29,7 +29,7 @@ RSpec.describe ArticlesController, :type => :controller do
       # article = Article.create! valid_attributes
       @articles = Article.all
       get :index#, {}, valid_session
-      expect(assigns(:articles)).to eq([article])
+      expect(assigns(:articles)).to eq([@articles])
     end
   end
 
